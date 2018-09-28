@@ -177,11 +177,17 @@ li.selected {
     margin: 0 auto 4px auto;
 }
 
+.fas, .fab, .far{
+    font-size: 24px;
+}
+
+
+
 /* #5 CHAT BAR */
 
 #chat-bar button {
     /* #5 #smileys #override button styles. We set the chat bar to appear like a tab-bar above. This overrides the tab bar's button scaling */
-    width: auto;
+    width: 10%;
     flex-grow: 0;
 }
 
@@ -210,7 +216,19 @@ li.selected {
     /* #6 #hide the #smile menu */
     display: none;
 }
-
+#chat-bar input{
+    width: 80%;
+    border: none;
+    font-size: 16px;
+    color: grey;
+}
+#chat-bar #send {
+    width: 10%;
+    flex-grow:0;
+    position: absolute;
+    right: 0px;
+    font-size: 28px;
+}
 /* MESSAGES */
 
 .message {
